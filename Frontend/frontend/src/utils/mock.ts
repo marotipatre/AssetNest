@@ -1,4 +1,4 @@
-import bkg from '@/assets/whale_bkg2.png';
+import bkg from '@/assets/yellowbg.png';
 import whale1 from '@/assets/whale_avatar1.png';
 import whale2 from '@/assets/whale_avatar2.png';
 import whale3 from '@/assets/whale_avatar3.png';

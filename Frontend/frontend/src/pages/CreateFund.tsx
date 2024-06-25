@@ -130,7 +130,7 @@ export default function CreateFund() {
         try{
             
             const provider = new AnchorProvider(connection, wallet as AnchorWallet, {});
-            const program = new Program(VaultMinterIdl as Idl, "55tC9joryrqBuUJjURE5i2pLLbzoFfx1K1hRWnMfigtF", provider);
+            const program = new Program(VaultMinterIdl as Idl, "program address", provider);
 
             console.log(VaultMinterIdl)
 
@@ -312,7 +312,7 @@ export default function CreateFund() {
                                     <Input 
                                         id="twitter" 
                                         type="text" 
-                                        placeholder="ex. @Whale_dApp" 
+                                        placeholder="ex. @Asset_NEst" 
                                         value={twitterhandle}
                                         onChange={(e) => setTwitterhandle(e.target.value)}
                                     />

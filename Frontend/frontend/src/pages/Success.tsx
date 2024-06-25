@@ -25,7 +25,7 @@ export default function Success() {
                     <CardHeader>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <CardTitle>Thank you!</CardTitle>
-                            <CardDescription>Keep using Whale Finance</CardDescription>
+                            <CardDescription>Keep using Asset NEst</CardDescription>
                         </div>
                     </CardHeader>
                     </Reveal>
@@ -46,7 +46,7 @@ export default function Success() {
                             </div>
                         </div>
                         <div className='flex flex-col justify-center w-full items-center mt-6'>
-                            <a href={`https://warpcast.com/~/compose?text=Deposit%20with%20Whale%20Finance!%20Follow%20us%20@Whale_dApp&embeds[]=https://whale-frame.vercel.app//api/${1}`} target="_blank" className='w-56 flex flex-row justify-center items-center space-x-2 border-[2px] border-secondary py-2 h-10 hover:cursor-pointer'>
+                            <a href={``} target="_blank" className='w-56 flex flex-row justify-center items-center space-x-2 border-[2px] border-secondary py-2 h-10 hover:cursor-pointer'>
                                 <div>Share on Farcaster</div>
                                 <img src={FarcasterLogo} alt="" className="shadow-md w-5"/>
                             </a>
