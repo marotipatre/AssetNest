@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-background mt-8">
-        © {new Date().getFullYear()} Asset NEst. All rights reserved.
+        © {new Date().getFullYear()} Asset NEst. All rights reserved. Created by Maroti
         </div>
         </Reveal>
         </div>
