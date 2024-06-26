@@ -27,7 +27,7 @@ function App() {
 
   const config = {
     rpcUrl: 'https://mainnet.optimism.io',
-    domain: '',
+    domain: 'https://asset-nest.vercel.app/',
     siweUri: 'https://example.com/login',
   };
 
