@@ -84,8 +84,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ name, description, avatar, im
                             </Tooltip>
                         </TooltipProvider>
                         <div className="flex flex-row justify-center items-center px-4 z-10 w-32 space-x-4">
-                            <img src={FarcasterLogo} alt="" className="w-8 h-8 cursor-pointer" onClick={() => window.open(`https://warpcast.com/${1}`, '_blank')}/>
-                            <TwitterLogoIcon className="w-8 h-8 cursor-pointer" onClick={() => window.open('https://twitter.com/Whale_dApp', '_blank')}/>
+                            <img src={FarcasterLogo} alt="" className="w-8 h-8 cursor-pointer" onClick={() => window.open(``, '_blank')}/>
+                            <TwitterLogoIcon className="w-8 h-8 cursor-pointer" onClick={() => window.open('', '_blank')}/>
                         </div>
                     </div>
                 </div>

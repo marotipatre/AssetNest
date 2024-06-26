@@ -38,7 +38,7 @@ const SwapComponent = () => {
         [key: string]: string;
     }
 
-    const [tokenA, setTokenA] = useState("WHALE");
+    const [tokenA, setTokenA] = useState("ASSETNEST");
     const [tokenABalance, setTokenABalance] = useState(0);
     const [tokenB, setTokenB] = useState("WBTC");
     const [tokenBBalance, setTokenBBalance] = useState(0);

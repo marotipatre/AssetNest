@@ -22,7 +22,7 @@ export default function Claim() {
 
         try{
             setLoading(true);
-            // const claims = await whaleFinanceContract.functions.claimTokens();
+            
             // setClaims(claims);
 
             // await Promise.all(Object.keys(amounts).map(async (token: string) => {

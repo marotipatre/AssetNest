@@ -51,7 +51,7 @@ export function Header() {
     return (
         <div className={` duration-600 sticky w-full top-0 z-20 shadow-2xl backdrop-blur-md bg-background/15`}>
             <div className="w-full bg-transparent flex flex-row justify-center items-center px-12 h-14">
-                <img className="cursor-pointer h-[100%] py-3" src={LogoApp} alt="Whale Finance" onClick={() => navigator('/')}/>
+                <img className="cursor-pointer h-[100%] py-3" src={LogoApp} alt="Asset NEst" onClick={() => navigator('/')}/>
                 <p style={{ color: '#F7DC6F', textShadow: '0 0 10px #F7DC6F' }} className="cursor-pointer text-primary mx-3" onClick={() => navigator('/')}>Asset NEst</p>
                 <div className="flex-1 flex flex-row h-[100%] justify-center items-center">
                     <Button variant="ghost" className="h-[100%] w-24 relative glow-bottom-border hover:bg-transparent group" onClick={() => navigator('/')}><p className="group-hover:text-yellow-400 group-hover:text-shadow-primary-glow">Home</p></Button>

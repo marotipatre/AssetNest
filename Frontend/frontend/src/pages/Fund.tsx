@@ -96,7 +96,7 @@ export default function Fund() {
 
             toast({
                 title: "You invested",
-                description: "using Whale Finance",
+                description: "using Asset NEst",
               })
 
         }catch(err){

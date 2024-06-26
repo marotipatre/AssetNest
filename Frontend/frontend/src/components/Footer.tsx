@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About Section */}
         <div>
-            {/* <img src={Logo} alt="Whale Finance Logo" className="w-[70px] h-[70px]"/> */}
+            {}
             <h5 className="text-xl font-semibold mb-4 mt-4">About Us</h5>
             <p className="text-background">
             We are the first decentralized platform that allows investors to invest in a manager's portfolio and managers to manage investors' assets.

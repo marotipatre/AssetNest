@@ -10,7 +10,7 @@ import { toast } from "@/components/ui/use-toast";
 import { Reveal, RevealWrapper } from '@/components/Reveal';
 import { useParams } from 'react-router-dom';
 import image from '@/assets/yellowbg.png';
-import avatar from '@/assets/whale_avatar2.png';
+import avatar from '@/assets/w_avatar2.png';
 import { CardFund } from '@/components/CardFund';
 import { FundData } from '@/utils/props';
 import { fundData } from '@/utils/mock';

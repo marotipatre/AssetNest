@@ -27,7 +27,7 @@ function App() {
 
   const config = {
     rpcUrl: 'https://mainnet.optimism.io',
-    domain: 'solana-whale.vercel.app',
+    domain: '',
     siweUri: 'https://example.com/login',
   };
 

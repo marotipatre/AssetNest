@@ -1,15 +1,15 @@
 import bkg from '@/assets/yellowbg.png';
-import whale1 from '@/assets/whale_avatar1.png';
-import whale2 from '@/assets/whale_avatar2.png';
-import whale3 from '@/assets/whale_avatar3.png';
-import whale4 from '@/assets/whale_avatar4.png';
+import w1 from '@/assets/w_avatar1.png';
+import w2 from '@/assets/w_avatar2.png';
+import w3 from '@/assets/w_avatar3.png';
+import w4 from '@/assets/w_avatar4.png';
 
 export const fundData = [
     {
         id: 1,
         name: 'Fund 1',
         description: 'conservative fund',
-        avatar: whale1,
+        avatar: w1,
         image: bkg,
         manager: '0x1234567890',
         risk: 'Low',
@@ -20,7 +20,7 @@ export const fundData = [
         id: 2,
         name: 'Fund 2',
         description: 'high risk fund',
-        avatar: whale2,
+        avatar: w2,
         image: bkg,
         manager: '0x1234567890',
         risk: 'High',
@@ -31,7 +31,7 @@ export const fundData = [
         id: 3,
         name: 'Fund 3',
         description: 'random',
-        avatar: whale3,
+        avatar: w3,
         image: bkg,
         manager: '0x1234567890',
         risk: 'Low',
@@ -42,7 +42,7 @@ export const fundData = [
         id: 4,
         name: 'Fund 4',
         description: 'SOL ETF',
-        avatar: whale4,
+        avatar: w4,
         image: bkg,
         manager: '0x1234567890',
         risk: 'Medium',
